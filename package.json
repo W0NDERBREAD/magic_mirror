@@ -4,6 +4,7 @@
   "description": "A magic mirror project on raspberry pi for node.js",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/W0NDERBREAD/magic_mirror/issues"
   },
-  "homepage": "https://github.com/W0NDERBREAD/magic_mirror#readme"
+  "homepage": "https://github.com/W0NDERBREAD/magic_mirror#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "forecast": "^0.3.2"
+  }
 }

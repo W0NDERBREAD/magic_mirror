@@ -1,0 +1,25 @@
+{
+  "name": "magic_mirror",
+  "description": "A magic mirror project on raspberry pi for node.js",
+  "main": "index.js",
+  "authors": [
+    "Andrew Daughters"
+  ],
+  "license": "GPL-3.0",
+  "keywords": [
+    "magicmirror",
+    "magic",
+    "mirror"
+  ],
+  "homepage": "https://github.com/W0NDERBREAD/magic_mirror",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "skycons-html5": "*"
+  }
+}

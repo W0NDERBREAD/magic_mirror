@@ -1,0 +1,15 @@
+<html>
+  <head>
+  	<script src="lib/skycons-html5/skycons.js"></script>
+  </head>
+  <body>
+  	<h1>Hello from index.html</h1>
+  	<canvas id="icon1" width="128" height="128"></canvas>
+  	
+  	<script>
+  		var skycons = new Skycons({"color":"black"});
+  		skycons.add("icon1", Skycons.PARTLY_CLOUDY_DAY);
+  		skycons.play();
+  	</script>
+  </body>
+</html>
