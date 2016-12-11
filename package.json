@@ -1,0 +1,24 @@
+{
+  "name": "magic_mirror",
+  "version": "1.0.0",
+  "description": "A magic mirror project on raspberry pi for node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/W0NDERBREAD/magic_mirror.git"
+  },
+  "keywords": [
+    "magicmirror",
+    "magic",
+    "mirror"
+  ],
+  "author": "Andrew Daughters",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/W0NDERBREAD/magic_mirror/issues"
+  },
+  "homepage": "https://github.com/W0NDERBREAD/magic_mirror#readme"
+}
